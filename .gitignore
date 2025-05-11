@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+package-lock.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environmental variables
+.env
+.env.*
+
+# Metro / React Native cache
+.expo/
+.expo-shared/
+.expo/web-build/
+.cache/
+metro-cache/
+
+# Misc
+coverage/
