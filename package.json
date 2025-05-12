@@ -1,5 +1,5 @@
 {
-  "name": "react-native-separator",
+  "name": "react-native-separator-ui",
   "version": "1.3.0",
   "description": "Componente de separador ligero y reutilizable para React Native. Ideal para crear divisiones horizontales y verticales en tus aplicaciones móviles.",
   "main": "dist/index.js",
