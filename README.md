@@ -1,8 +1,9 @@
 # React Native Separator
 
 [![npm version](https://img.shields.io/npm/v/react-native-separator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-separator)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-repository-blue?style=flat-square&logo=github)](https://github.com/urian121/react-native-separator)
-[![npm](https://img.shields.io/npm/dt/react-native-separator.svg)](https://www.npmjs.com/package/react-native-separator)
+[![GitHub Repo](https://img.shields.io/badge/repository-GitHub-blue?style=flat-square&logo=github)](https://github.com/urian121/react-native-separator)
+[![npm downloads](https://img.shields.io/npm/dt/react-native-separator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-separator)
+
 
 **`react-native-separator-ui`** es una librería moderna, intuitiva, liviana y flexible para crear separadores horizontales o verticales en aplicaciones **React Native**. 
 
@@ -20,9 +21,9 @@ Ideal para crear divisiones horizontales y verticales en tus aplicaciones móvil
 Puedes instalar **react-native-separator-ui** usando npm o yarn:
 
 ```bash
-npm install @react-native-separator/core
+npm install react-native-separator-ui
 # o
-yarn add @react-native-separator/core
+yarn add react-native-separator-ui
 ```
 
 ## Uso básico
