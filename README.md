@@ -1,11 +1,14 @@
 # React Native Separator
 
-[![npm version](https://img.shields.io/npm/v/@react-native-separator/core.svg)](https://www.npmjs.com/package/@react-native-separator/core)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/react-native-separator.svg?style=flat-square)](https://www.npmjs.com/package/react-native-separator)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-repository-blue?style=flat-square&logo=github)](https://github.com/urian121/react-native-separator)
+[![npm](https://img.shields.io/npm/dt/react-native-separator.svg)](https://www.npmjs.com/package/react-native-separator)
 
-Un componente ligero y versátil para crear separadores en tus aplicaciones React Native. Ideal para organizar y estructurar contenido de manera profesional.
+**`react-native-separator-ui`** es una librería moderna, intuitiva, liviana y flexible para crear separadores horizontales o verticales en aplicaciones **React Native**. 
 
-## Características Principales
+Ideal para crear divisiones horizontales y verticales en tus aplicaciones móviles, ayudándote a estructurar y organizar interfaces de forma limpia, profesional y reutilizable.
+
+## Ventajas principales
 
 - 🎨 **Sencillo pero potente**: Solo dos props para controlar todo
 - 📱 **Responsive**: Se adapta automáticamente al tamaño de la pantalla
@@ -14,6 +17,7 @@ Un componente ligero y versátil para crear separadores en tus aplicaciones Reac
 - 🔧 **Flexibilidad**: Horizontal y vertical con un solo componente
 
 ## Instalación
+Puedes instalar **react-native-separator-ui** usando npm o yarn:
 
 ```bash
 npm install @react-native-separator/core
@@ -21,10 +25,12 @@ npm install @react-native-separator/core
 yarn add @react-native-separator/core
 ```
 
-## Uso
+## Uso básico
+Puedes usar **react-native-separator-ui** de la siguiente manera:
 
 ```tsx
-import Separator from '@react-native-separator/core';
+// Importar la librería
+import Separator from 'react-native-separator-ui';
 
 // Uso horizontal (por defecto)
 <Separator height={1} />
@@ -62,3 +68,24 @@ import Separator from '@react-native-separator/core';
   </View>
 </View>
 ```
+
+## 🤝 Únete y Contribuye
+
+Si encuentras algún problema o tienes una idea para mejorar el paquete, por favor abre un issue o envía un pull request
+en [GitHub](https://github.com/urian121/react-native-separator)
+
+## 👨‍💻 Desarrollador
+
+**Urian Viera**  
+🌐 [urianviera.com](https://www.urianviera.com)  
+📺 [YouTube](https://www.youtube.com/WebDeveloperUrianViera)  
+💌 [urian1213viera@gmail.com](mailto:urian1213viera@gmail.com)  
+☕ [¡Apóyame en PayPal!](https://www.paypal.com/donate/?hosted_button_id=4SV78MQJJH3VE)
+
+## Copyright
+
+© 2025 Urian Viera. Todos los derechos reservados.
+
+## 🛡 License
+
+Distribuido bajo la licencia [MIT](LICENSE)
