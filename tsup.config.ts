@@ -2,11 +2,12 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: ['src/index.tsx'],
-  format: ['esm', 'cjs'],
-  dts: true,
+  format: ['cjs'],
   minify: true,
-  sourcemap: true,
+  sourcemap: false,
   clean: true,
-  target: 'es2020',
+  target: 'es2019',
   external: ['react', 'react-native'],
+  dts: true, // Generar archivos .d.ts
+  tsconfig: './tsconfig.json' // Usar el tsconfig existente
 });
